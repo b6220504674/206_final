@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    unsigned long long n,i;
+    unsigned int n,i;
     int c,j,k,m;
     scanf("%d %d",&n,&c);
     i=n%10;
@@ -18,6 +18,5 @@ int main()
     k=n+m;
     }
     printf("%d",k);
-    
     return 0;
 }
